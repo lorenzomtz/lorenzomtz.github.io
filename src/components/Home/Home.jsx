@@ -8,20 +8,39 @@ function Home() {
   return (
     <div className="home">
       <Container>
-        <h4>Hello, my name is</h4>
-        <div className="title">
+        <div id="home">
+          <h4>Hello, my name is</h4>
+          <div className="title">
             <h1 id="name">Lorenzo Martinez.</h1>
             <h1 id="subname">I develop software.</h1>
-        </div>
-        <div className="title-bio">
+          </div>
+          <div className="title-bio">
             <p>
-                I'm a software engineer with interests in machine learning, 
-                cybersecurity, and web development. This summer I will be working
-                for Amazon in their AWS department as a SDE intern.
+              I'm a student/software engineer with interests in machine
+              learning, cybersecurity, and web development. This summer I will
+              be working for{" "}
+              <a
+                href="https://www.amazon.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Amazon
+              </a>{" "}
+              in their{" "}
+              <a
+                href="https://aws.amazon.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                AWS
+              </a>{" "}
+              department as a SDE intern.
             </p>
+          </div>
         </div>
+
         {/* <Link to="/">Home</Link> */}
-        
+
         {/* <Carousel>
           <Carousel.Item interval={5000}>
             <img
