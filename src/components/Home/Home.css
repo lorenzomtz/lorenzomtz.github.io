@@ -1,0 +1,45 @@
+.home {
+    text-align: left;
+    background-color: #101f2e;
+    padding: 12vw;
+    color: #6cabeb;
+    font-family: Consolas, Monaco, monospace;
+}
+
+.carousel-img {
+    max-height: 650px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-bio {
+    color: rgba(255, 255, 255, 0.459);
+    max-width: 50%;
+    padding-top: 1.5vw;
+}
+
+.home h4 {
+    font-size: 1.25rem;
+}
+
+.title h1 {
+    font-size: 4.5vw;
+}
+
+#name {
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bolder;
+}
+
+#subname {
+    color: rgba(255, 255, 255, 0.63);
+    font-weight: bolder;
+}
+
