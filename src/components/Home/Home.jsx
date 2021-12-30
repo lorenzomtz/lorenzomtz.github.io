@@ -16,9 +16,31 @@ function Home() {
           </div>
           <div className="title-bio">
             <p>
-              I'm a student/software engineer with interests in machine
-              learning, cybersecurity, and web development. This summer I will
-              be working for{" "}
+              I'm a student/software engineer with interests in{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Machine_learning"
+                target="_blank"
+                rel="noreferrer"
+              >
+                machine learning
+              </a>
+              ,{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Computer_security"
+                target="_blank"
+                rel="noreferrer"
+              >
+                cybersecurity
+              </a>
+              , and{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Web_development"
+                target="_blank"
+                rel="noreferrer"
+              >
+                web development
+              </a>
+              . This summer I will be working for{" "}
               <a
                 href="https://www.amazon.com/"
                 target="_blank"
@@ -264,6 +286,64 @@ function Home() {
                 </a>
                 .
               </li>
+              <li>
+                Created a{" "}
+                <a
+                  href="https://flask.palletsprojects.com/en/2.0.x/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Flask
+                </a>{" "}
+                backend that provided pagination, filtering, sorting, and
+                searching over various models.
+              </li>
+              <li>
+                Implemented a{" "}
+                <a
+                  href="https://restfulapi.net/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  RESTful API
+                </a>{" "}
+                using{" "}
+                <a
+                  href="https://www.postman.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Postman
+                </a>{" "}
+                and deployed to AWS via{" "}
+                <a
+                  href="https://aws.amazon.com/elasticbeanstalk/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AWS Elastic Beanstalk
+                </a>
+                .
+              </li>
+              <li>
+                Provided visualizations of data through{" "}
+                <a
+                  href="https://reactjs.org/docs/hooks-intro.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  React Hooks
+                </a>{" "}
+                and{" "}
+                <a
+                  href="https://recharts.org/en-US/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Recharts
+                </a>
+                .
+              </li>
             </ul>
           </div>
           <div className="info">
@@ -293,29 +373,32 @@ function Home() {
                   rel="noreferrer"
                 >
                   BFS
-                </a>, {" "}
+                </a>
+                ,{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/Depth-first_search"
                   target="_blank"
                   rel="noreferrer"
                 >
                   DFS
-                </a>, {" "}
+                </a>
+                ,{" "}
                 <a
                   href="https://www.geeksforgeeks.org/uniform-cost-search-dijkstra-for-large-graphs/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   UCS
-                </a>,
-                and {" "}
+                </a>
+                , and{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/A*_search_algorithm"
                   target="_blank"
                   rel="noreferrer"
                 >
                   A*
-                </a>) and how to implement them for different uses.
+                </a>
+                ) and how to implement them for different uses.
               </li>
             </ul>
           </div>
