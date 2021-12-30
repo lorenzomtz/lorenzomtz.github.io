@@ -35,6 +35,13 @@ h2 {
     padding-top: 1.5vw;
 }
 
+.section {
+    padding-top: 25vh;
+    padding-left: 3vw;
+    padding-bottom: 20vh;
+    border-bottom: 1px solid white;
+}
+
 .info a {
     text-decoration: none;
     color: #6cabeb;
@@ -73,8 +80,9 @@ h2 {
 }
 
 .info h5 {
-    font-size: 1.25vw;
+    font-size: 1.25rem;
     color: #ffffffcc;
+    font-style: italic;
 }
 
 #name {
@@ -87,16 +95,6 @@ h2 {
     font-weight: bolder;
 }
 
-#about {
-    padding-top: 25vh;
-    padding-left: 3vw;
-    padding-bottom: 20vh;
-    border-bottom: 1px solid white;
-}
-
-/* #about-info {
-    padding-left: 20px;
-} */
 
 #about-img {
     flex-basis: 40%;
@@ -112,11 +110,4 @@ h2 {
 #home {
     padding-bottom: 20vh;
     border-bottom: 1px solid white;
-}
-
-#experience {
-    padding-top: 25vh;
-    padding-bottom: 20vh;
-    border-bottom: 1px solid white;
-    padding-left: 3vw;
 }
