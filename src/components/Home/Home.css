@@ -67,6 +67,16 @@ h2 {
     font-weight: bold;
 }
 
+.info h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.info h5 {
+    font-size: 1.25vw;
+    color: #ffffffcc;
+}
+
 #name {
     color: #ffffffcc;
     font-weight: bolder;
@@ -80,6 +90,8 @@ h2 {
 #about {
     padding-top: 25vh;
     padding-left: 3vw;
+    padding-bottom: 20vh;
+    border-bottom: 1px solid white;
 }
 
 /* #about-info {
@@ -100,4 +112,11 @@ h2 {
 #home {
     padding-bottom: 20vh;
     border-bottom: 1px solid white;
+}
+
+#experience {
+    padding-top: 25vh;
+    padding-bottom: 20vh;
+    border-bottom: 1px solid white;
+    padding-left: 3vw;
 }
