@@ -3,7 +3,7 @@ import "./Home.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container } from "react-bootstrap";
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <Container>
@@ -55,7 +55,7 @@ function Home() {
               >
                 AWS
               </a>{" "}
-              department as a SDE intern.
+              department as a Software Development Engineer intern.
             </p>
           </div>
         </div>
@@ -103,8 +103,8 @@ function Home() {
                   >
                     LeetCode
                   </a>
-                  . Today, I I have just recently completed a previous SWE
-                  internship at{" "}
+                  . Today, I I have just recently completed a previous software
+                  engineering internship at{" "}
                   <a
                     href="https://www.paymaya.com/"
                     target="_blank"
@@ -112,7 +112,8 @@ function Home() {
                   >
                     PayMaya
                   </a>{" "}
-                  and moving forward to a future SDE internship at{" "}
+                  and moving forward to a future software development
+                  engineering internship at{" "}
                   <a
                     href="https://www.amazon.com/"
                     target="_blank"
@@ -472,6 +473,6 @@ function Home() {
       </Container>
     </div>
   );
-}
+};
 
 export default Home;
