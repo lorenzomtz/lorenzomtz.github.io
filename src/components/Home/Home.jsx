@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Container } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -64,7 +64,7 @@ const Home = () => {
             <h2>About Me</h2>
           </div>
           <div id="container">
-            <div id="about-info">
+            <div id="about-info" className="box">
               <div className="info">
                 <p>
                   Hey there! My name is Lorenzo. I am a third-year student at{" "}
@@ -141,8 +141,9 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div id="about-img">
-              <img src="headshot.jpg" alt="Headshot of me" width="400px" />
+            <div>
+              <Image fluid className="box" id="about-img" src="headshot.jpg"/>
+              {/* <img src="headshot.jpg" alt="Headshot of me" width="400px" /> */}
             </div>
           </div>
         </div>
