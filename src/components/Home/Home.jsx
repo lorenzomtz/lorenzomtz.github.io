@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Image } from "react-bootstrap";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -426,7 +427,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-
+        <Contact />
         {/* <Link to="/">Home</Link> */}
 
         {/* <Carousel>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Form, Button, Container } from "react-bootstrap";
+import "./Contact.css";
+import "../Home/Home.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -41,26 +43,32 @@ const Contact = () => {
   // };
 
   return (
-    <div>
+    <div className="section">
+      <div className="title">
+        <h2 id="contact-header">Contact Me</h2>
+      </div>
       <Container>
-        <Form>
+        <Form id="contact-form">
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Name</Form.Label>
+            <Form.Label className="label">Name</Form.Label>
             <Form.Control
+              className="area"
               type="text"
               placeholder="Your name"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
-            <Form.Label>Email address</Form.Label>
+            <Form.Label className="label">Email address</Form.Label>
             <Form.Control
+              className="area"
               type="email"
               placeholder="Your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
-            <Form.Label>Message</Form.Label>
+            <Form.Label className="label">Message</Form.Label>
             <Form.Control
+              className="area"
               as="textarea"
               rows={3}
               placeholder="Your message"
@@ -68,32 +76,19 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)}
             />
           </Form.Group>
-          <Button variant="primary" type="submit" onClick={submit}>
+          <Button
+            className="button"
+            variant="primary"
+            type="submit"
+            onClick={submit}
+          >
             Submit
           </Button>
         </Form>
-        <span className={emailSent ? "visible" : null}>
+        <span className={emailSent ? "visible" : "invisible"}>
           Thank you for your message, we will be in touch in no time!
         </span>
       </Container>
-      {/* <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button onClick={submit}>Send Message</button> */}
     </div>
   );
 };
