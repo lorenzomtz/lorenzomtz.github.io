@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Form, Button, Container } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 import "./Contact.css";
 import "../Home/Home.css";
 
