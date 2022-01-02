@@ -1,10 +1,13 @@
 import React from "react";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.css";
-// import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
+import Contact from "../Contact/Contact";
+import About from "../About/About";
+import Experience from "../Experience/Experience";
+import Projects from "../Projects/Projects"
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <Container>
@@ -16,9 +19,31 @@ function Home() {
           </div>
           <div className="title-bio">
             <p>
-              I'm a student/software engineer with interests in machine
-              learning, cybersecurity, and web development. This summer I will
-              be working for{" "}
+              I'm a student/software engineer with interests in{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Machine_learning"
+                target="_blank"
+                rel="noreferrer"
+              >
+                machine learning
+              </a>
+              ,{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Computer_security"
+                target="_blank"
+                rel="noreferrer"
+              >
+                cybersecurity
+              </a>
+              , and{" "}
+              <a
+                href="https://en.wikipedia.org/wiki/Web_development"
+                target="_blank"
+                rel="noreferrer"
+              >
+                web development
+              </a>
+              . This summer I will be working for{" "}
               <a
                 href="https://www.amazon.com/"
                 target="_blank"
@@ -34,91 +59,14 @@ function Home() {
               >
                 AWS
               </a>{" "}
-              department as a SDE intern.
+              department as a Software Development Engineer intern.
             </p>
           </div>
         </div>
-        <div id="about">
-          <div className="title">
-            <h2>About Me</h2>
-          </div>
-          <div id="container">
-            <div id="about-info">
-              <div className="info">
-                <p>
-                  Hey there! My name is Lorenzo. I am a third-year student at{" "}
-                  <a
-                    href="https://www.utexas.edu/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    The University of Texas at Austin
-                  </a>{" "}
-                  studying computer science. Programming entered my life in 2016
-                  when a professor transformed a random elective into something
-                  that has enraptured my brain since. From creating a barely
-                  functioning Brick Breaker replica to training an AI to do well
-                  at a Mario Kart equivalent, my journey through the
-                  ever-expanding world of computer science has come a long way.
-                </p>
-              </div>
-              <div className="info">
-                <p>
-                  Throughout my college career, the idea of securing a highly
-                  sought after internship faded into a void of impossibility
-                  despite continuously delving into side projects and{" "}
-                  <a
-                    href="https://leetcode.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LeetCode
-                  </a>
-                  . Today, I I have just recently completed a previous SWE
-                  internship at{" "}
-                  <a
-                    href="https://www.paymaya.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    PayMaya
-                  </a>{" "}
-                  and moving forward to a future SDE internship at{" "}
-                  <a
-                    href="https://www.amazon.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Amazon
-                  </a>
-                  .
-                </p>
-              </div>
-              <div className="info">
-                <p>
-                  Outside of the realm of coding, I am interested in digital
-                  photography, weightlifting/athletics, and gaming. My game of
-                  choice at the moment is{" "}
-                  <a
-                    href="https://worldofwarcraft.com/en-us/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    World of Warcraft
-                  </a>
-                  . I love spending time with nature and my friends/family as
-                  much as possible.
-                </p>
-              </div>
-            </div>
-            <div id="about-img">
-              <img src="headshot.jpg" alt="Headshot of me" width="400px" />
-            </div>
-          </div>
-        </div>
-
-        {/* <Link to="/">Home</Link> */}
-
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
         {/* <Carousel>
           <Carousel.Item interval={5000}>
             <img
@@ -164,6 +112,6 @@ function Home() {
       </Container>
     </div>
   );
-}
+};
 
 export default Home;

@@ -1,0 +1,12 @@
+button {
+  border: none;
+  background-color: #101f2e;
+  color: #ffffffcc;
+}
+
+#nav {
+  padding-left: 2rem;
+  background-color: #101f2e;
+  box-shadow: 0px 10px 5px #0e1b27;
+}
+

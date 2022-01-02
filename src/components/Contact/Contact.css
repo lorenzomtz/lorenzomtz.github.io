@@ -1,0 +1,46 @@
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.label {
+  /* padding-bottom: 0.25rem; */
+  padding-top: 0.75rem;
+}
+
+.button {
+  background-color: #101f2e;
+  border-color: #6cabeb;
+  color: #ffffffcc;
+}
+
+.button:focus {
+  background-color: #ffffffcc;
+  color: #535353;
+  border-color: #6cabeb;
+  box-shadow: 0 0 #6cabeb;
+}
+
+.area {
+  background-color: #101f2e;
+  border-color: #6cabeb;
+  color: #ffffffcc;
+}
+
+.button:hover {
+  background-color: #6cabeb;
+}
+
+#contact-form {
+  margin: auto;
+  width: 50%;
+}
+
+#contact-header {
+  margin: auto;
+  width: 50%;
+  padding-bottom: 1.5rem;
+}
