@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="title">
         <h2>Experience</h2>
       </div>
-      <div className="info">
+      <div id="exp-card" className="info card popout">
         <h4>
           Software Engineer Intern @{" "}
           <a href="https://www.paymaya.com/" target="_blank" rel="noreferrer">
