@@ -44,11 +44,11 @@ const Contact = () => {
   // };
 
   return (
-    <div className="section">
+    <div id="contact" className="section">
       <div className="title">
         <h2 id="contact-header">Contact Me</h2>
       </div>
-      <Container>
+      <div id="card-form" className="popout card">
         <Form id="contact-form">
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label className="label">Name</Form.Label>
@@ -89,7 +89,7 @@ const Contact = () => {
         <span className={emailSent ? "visible" : "invisible"}>
           Thank you for your message, we will be in touch in no time!
         </span>
-      </Container>
+      </div>
     </div>
   );
 };

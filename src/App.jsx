@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "./components/Nav/Navigation";
-// import { Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/Home/Home";
 
@@ -9,9 +8,6 @@ const App = () => {
     <div>
       <Navigation />
       <Home />
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes> */}
     </div>
   );
 }
