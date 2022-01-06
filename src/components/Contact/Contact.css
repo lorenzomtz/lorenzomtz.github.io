@@ -37,10 +37,10 @@
 #contact-form {
   margin: auto;
   width: 50%;
+  color: #6cabeb;
 }
 
-#contact-header {
+#card-form {
+  width: 80%;
   margin: auto;
-  width: 50%;
-  padding-bottom: 1.5rem;
 }

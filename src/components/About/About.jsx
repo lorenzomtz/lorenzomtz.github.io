@@ -10,7 +10,7 @@ const About = () => {
         <h2>About Me</h2>
       </div>
       <div id="container">
-        <div id="about-info">
+        <div className="popout card" id="about-info">
           <div className="info">
             <p>
               Hey there! My name is Lorenzo. I am a third-year student at{" "}
@@ -82,7 +82,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div id="img-container">
           <Image fluid className="box" id="about-img" src="headshot.jpg" />
           {/* <img src="headshot.jpg" alt="Headshot of me" width="400px" /> */}
         </div>

@@ -1,5 +1,19 @@
+html {
+    color: #ffffff75
+}
+
 h2 {
     color: #ffffffcc;
+}
+
+a {
+    text-decoration: none;
+    color: #6cabeb;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6cabeb;
 }
 
 .home {
@@ -31,42 +45,48 @@ h2 {
 
 .info {
     color: #ffffff75;
-    max-width: 70%;
     padding-top: 1.5vw;
-    /* padding-right: 0; */
-    /* border-right: 0; */
 }
 
 .section {
     padding-top: 20vh;
-    padding-left: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
     padding-bottom: 15vh;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffffcc;
 }
 
 .box {
     box-shadow: 30px 30px 15px #0d1822;
-    border-radius: 50px;
 }
 
-.info a {
-    text-decoration: none;
-    color: #6cabeb;
+.card {
+    background-color: #101f2e;
+    border-color: #ffffffcc;
+    border-width: 0.01rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    color: #ffffff75;
+    /* min-width: 50%; */
+    width: 100%;
+    /* display: inline-block; */
 }
 
-.info a:hover {
-    text-decoration: underline;
-    color: #6cabeb;
+.list-item {
+    background-color: #101f2e;
+    color: #ffffff75;
+    padding: 0 0.25rem;
+    border-color: #09131d;
+    /* border-width: 1rem; */
 }
 
-.title-bio a {
-    text-decoration: none;
-    color: #6cabeb;
+.popout {
+    transition: transform 2s;
 }
 
-.title-bio a:hover {
-    text-decoration: underline;
-    color: #6cabeb;
+.popout:hover {
+    box-shadow: 0 0 3rem #0a1520;
+    transform: scale(1.025);
 }
 
 .home h4 {
@@ -81,12 +101,14 @@ h2 {
     font-weight: bold;
 }
 
-.info h4 {
+.info h4,
+.card h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
 
-.info h5 {
+.info h5,
+.card h5 {
     font-size: 1.25rem;
     color: #ffffffcc;
     font-style: italic;
@@ -102,12 +124,36 @@ h2 {
     font-weight: bolder;
 }
 
+#exp-card {
+    padding: 1.75rem 1.5rem;
+}
 
-#about-img {
-    margin-right: 1.5vw;
+#about .title,
+#projects .title,
+#experience .title,
+#contact .title {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 1.25rem;
+}
+
+#img-container {
+    margin: 0 3rem;
     max-width: 25vw;
 }
 
+#about-info {
+    text-align: left;
+    padding: 1.65rem;
+    margin: 1.5rem;
+    /* transition: transform 2s; */
+}
+
+/* #about-info:hover {
+    box-shadow: 0 0 3rem #0a1520;
+    transform: scale(1.025);
+} */
 
 #container {
     display: flex;
@@ -117,5 +163,5 @@ h2 {
 
 #home {
     padding-bottom: 15vh;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffffcc;
 }
