@@ -80,6 +80,10 @@ a:hover {
     /* border-width: 1rem; */
 }
 
+.icon {
+    width: 1.5rem;
+}
+
 .popout {
     transition: transform 2s;
 }
@@ -164,4 +168,16 @@ a:hover {
 #home {
     padding-bottom: 15vh;
     border-bottom: 1px solid #ffffffcc;
+}
+
+#name-icon {
+    width: 2.25rem;
+}
+
+#last-icon {
+    padding-right: 1.5rem;
+}
+
+#penultimate-icon {
+    padding-right: 65rem;
 }
