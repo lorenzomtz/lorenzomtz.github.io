@@ -145,8 +145,20 @@ const Projects = () => {
               </ListGroupItem>
             </ListGroup>
           </Card.Text>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link
+            href="https://gitlab.com/cs373-11am-group5/chemicals-near-me"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitLab
+          </Card.Link>
+          <Card.Link
+            href="https://www.chemicalsnear.me/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Website
+          </Card.Link>
         </Card.Body>
       </Card>
       <Card className="card popout">
@@ -211,8 +223,13 @@ const Projects = () => {
               </ListGroupItem>
             </ListGroup>
           </Card.Text>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link
+            href="https://github.com/lorenzomtz/searchvis"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </Card.Link>
         </Card.Body>
       </Card>
       <Card className="card popout">
@@ -232,7 +249,9 @@ const Projects = () => {
               <ListGroupItem className="list-item">
                 Implemented argument passing for execution of user programs.
               </ListGroupItem>
-              <ListGroupItem className="list-item">Created system calls for user programs to readily use.</ListGroupItem>
+              <ListGroupItem className="list-item">
+                Created system calls for user programs to readily use.
+              </ListGroupItem>
               <ListGroupItem className="list-item">
                 Expanded the virtual memory system, adding a page replacement
                 system and the use of swap.
@@ -243,8 +262,7 @@ const Projects = () => {
               </ListGroupItem>
             </ListGroup>
           </Card.Text>
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
+          <Card.Link href="#contact">[Email for access]</Card.Link>
         </Card.Body>
       </Card>
     </div>
